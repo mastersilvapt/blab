@@ -70,7 +70,7 @@ uninstall:
 get-owl:
 	# need to install owl to be able to compile blab
 	# this may take a moment depending on your machine
-	-git clone https://github.com/aoh/owl-lisp.git
+	-git clone https://gitlab.com/owl-lisp/owl owl-lisp
 	-cd owl-lisp && git pull 
 	cd owl-lisp && make
 
